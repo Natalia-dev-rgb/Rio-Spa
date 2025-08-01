@@ -6,5 +6,5 @@ export const getWhatsappLink = (lang: 'en' | 'es' | 'it' = 'en') => {
     }
 
     const encodedMessage = encodeURIComponent(messages[lang])
-    return `https://wa.me/34651746907?text=${encodedMessage}`
+    return `https://wa.me/34675065798?text=${encodedMessage}`
 }

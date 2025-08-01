@@ -4,7 +4,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import './index.css'
 import App from './App.tsx'
 import { HashRouter } from 'react-router-dom';
-
+import './i18n';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

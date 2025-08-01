@@ -67,15 +67,16 @@
 
 .bgBook {
     background-color: #c95f82;
-    color: white; 
+    color: white;
     font-weight: bold;
 }
 
-.bgBook a{
+.bgBook a {
     background-color: #c95f82;
-    color: white; 
+    color: white;
     font-weight: bold;
 }
+
 /* Animación para 2 imágenes */
 @keyframes fadeIn {
     0% {

@@ -1,0 +1,106 @@
+{
+  "Header": {
+    "Home": "Inicio",
+    "Gallery": "Galería de Fotos",
+    "Book": "Reservar ahora"
+  },
+  "Footer": {
+    "Description": "Tu espacio de bienestar y equilibrio en el corazón de la ciudad. Terapias personalizadas para cuerpo y mente.",
+    "QuickLinks": "Enlaces Rápidos",
+    "Sections": {
+      "Home": "Inicio",
+      "Services": "Servicios",
+      "About": "Sobre Nosotros",
+      "Testimonials": "Testimonios",
+      "Contact": "Contacto"
+    },
+    "ServiceList": {
+      "Title": "Servicios",
+      "Relaxing": "Masaje Relajante",
+      "Therapeutic": "Masaje Terapéutico",
+      "Sports": "Masaje Deportivo",
+      "Reflexology": "Reflexología",
+      "Aromatherapy": "Aromaterapia"
+    },
+    "Schedule": {
+      "Title": "Horario de Atención",
+      "Week": "Lunes a Viernes: 9:00 - 20:00",
+      "Saturday": "Sábado: 10:00 - 18:00",
+      "Sunday": "Domingo: Cerrado"
+    },
+    "Copyright": "© 2025 Lua Massage. Todos los derechos reservados."
+  },
+  "Contact": {
+    "Title": "Contáctanos",
+    "InfoTitle": "Información de Contacto",
+    "Info": {
+      "Address": "Carrasquert 6, Ciudad",
+      "Phone": "+34 675 06 57 98",
+      "Email": "info@luamassage.net",
+      "Schedule": "Lun - Sáb: 9:00 - 20:00"
+    },
+    "BookTitle": "Reserva Tu Sesión",
+    "Form": {
+      "Name": "Nombre",
+      "Email": "Correo electrónico",
+      "Phone": "Teléfono",
+      "Service": "Servicio",
+      "Select": "Selecciona un servicio",
+      "Relaxing": "Masaje Relajante",
+      "Therapeutic": "Masaje Terapéutico",
+      "Sports": "Masaje Deportivo",
+      "Other": "Otro",
+      "Message": "Mensaje",
+      "Submit": "Enviar Solicitud"
+    }
+  },
+  "Testimonials": {
+    "Title": "Testimonios de Clientes",
+    "Quotes": [
+      {
+        "quote": "Después de meses de sufrir dolor de espalda, los masajes terapéuticos de Lua han sido mi salvación. El ambiente es relajante y la profesionalidad de los terapeutas es excepcional.",
+        "author": "- María Fernández"
+      },
+      {
+        "quote": "Vengo regularmente para mantener el estrés laboral a raya. La combinación de técnicas y la atención personalizada hacen que cada sesión sea una experiencia única.",
+        "author": "- Carlos Rodríguez"
+      },
+      {
+        "quote": "Como deportista, los masajes deportivos de Lua son una parte fundamental de mi rutina de entrenamiento. Han mejorado mi rendimiento y ayudado a prevenir lesiones.",
+        "author": "- Laura Martínez"
+      }
+    ]
+  },
+  "Services": {
+    "Title": "Nuestros Servicios",
+    "Cards": [
+      {
+        "title": "Masaje Relajante",
+        "description": "Disfruta de movimientos suaves y fluidos que reducen la tensión y el estrés, mejoran la circulación y proporcionan una profunda sensación de bienestar."
+      },
+      {
+        "title": "Masaje Terapéutico",
+        "description": "Un tratamiento específico para el dolor muscular y articular, enfocado en aliviar el dolor crónico y mejorar la movilidad de las zonas afectadas."
+      },
+      {
+        "title": "Masaje Deportivo",
+        "description": "Ideal para atletas y personas activas, este masaje ayuda a prevenir lesiones, acelerar la recuperación muscular y mejorar el rendimiento físico."
+      }
+    ],
+    "MoreInfo": "Más Información"
+  },
+  "Carrousel": {
+    "Title": "Bienvenido a Lua Massage",
+    "Description": "Masajes eróticos y terapias sensuales en un ambiente exclusivo.",
+    "BookNow": "Reservar Ahora"
+  },
+  "About": {
+    "Title": "Masajes Eróticos Exclusivos",
+    "Subtitle": "Una experiencia íntima y personalizada para tu bienestar.",
+    "Paragraphs": [
+      "En cada sesión, te invito a disfrutar de un momento único, diseñado para conectar con tu placer, relajar tu cuerpo y mente, y liberar tensiones a través del toque consciente y sensual.",
+      "Este servicio está dirigido a personas que desean experimentar algo diferente con total discreción, sin prisas y en un entorno donde cada detalle está pensado para tu comodidad y placer."
+    ],
+    "Meet": "Conoce a Nuestra Masajista"
+  }
+}

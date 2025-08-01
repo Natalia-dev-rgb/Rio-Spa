@@ -1,0 +1,126 @@
+.contact {
+  padding: 100px 5%;
+  background: linear-gradient(135deg, #fff3f7, #fef7f9);
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
+.contact-info {
+  flex: 1 1 350px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+}
+
+.contact-info h3 {
+  font-family: var(--font-accent);
+  font-size: 28px;
+  color: var(--color-dark-pink);
+  margin-bottom: 25px;
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.contact-info-item i {
+  margin-right: 15px;
+  font-size: 20px;
+  color: var(--color-dark-pink);
+}
+
+.map img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-top: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+  flex: 1 1 350px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+}
+
+.contact-form h3 {
+  font-family: var(--font-accent);
+  font-size: 28px;
+  color: var(--color-dark-pink);
+  margin-bottom: 25px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: var(--font-main);
+  background-color: #fdfdfd;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: var(--color-dark-pink);
+  box-shadow: 0 0 0 2px rgba(201, 95, 130, 0.2);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+.button {
+  background-color: var(--color-dark-pink);
+  color: #fff;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 6px 20px rgba(201, 95, 130, 0.3);
+}
+
+.button:hover {
+  background-color: var(--color-pink);
+  transform: translateY(-2px);
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(201, 95, 130, 0.4);
+}

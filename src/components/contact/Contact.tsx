@@ -1,30 +1,33 @@
-import mapImage from '../../assets/images/mapa.jpg';
-import './styles.css';
+import { useTranslation } from 'react-i18next'
+import mapImage from '../../assets/images/mapa.jpg'
+import './styles.css'
 
 export const Contact = () => {
+    const { t } = useTranslation()
+
     return (
         <section className="contact" id="contact">
             <div className="section-header">
-                <h2>Contact Us</h2>
+                <h2>{t('Contact.Title')}</h2>
             </div>
             <div className="contact-container">
                 <div className="contact-info">
-                    <h3>Contact Information</h3>
+                    <h3>{t('Contact.InfoTitle')}</h3>
                     <div className="contact-info-item">
                         <i className="fas fa-map-marker-alt"></i>
-                        <span>Carrasquert 6, City</span>
+                        <span>{t('Contact.Info.Address')}</span>
                     </div>
                     <div className="contact-info-item">
                         <i className="fas fa-phone"></i>
-                        <span>+34 675 06 57 98</span>
+                        <span>{t('Contact.Info.Phone')}</span>
                     </div>
                     <div className="contact-info-item">
                         <i className="fas fa-envelope"></i>
-                        <span>info@luamassage.net</span>
+                        <span>{t('Contact.Info.Email')}</span>
                     </div>
                     <div className="contact-info-item">
                         <i className="fas fa-clock"></i>
-                        <span>Mon - Sat: 9:00 AM - 8:00 PM</span>
+                        <span>{t('Contact.Info.Schedule')}</span>
                     </div>
 
                     <div className="map" style={{ marginTop: '20px' }}>
@@ -39,38 +42,38 @@ export const Contact = () => {
                 </div>
 
                 <div className="contact-form">
-                    <h3>Book Your Session</h3>
+                    <h3>{t('Contact.BookTitle')}</h3>
                     <form>
                         <div className="form-group">
-                            <label htmlFor="name">Name</label>
+                            <label htmlFor="name">{t('Contact.Form.Name')}</label>
                             <input type="text" id="name" required />
                         </div>
                         <div className="form-group">
-                            <label htmlFor="email">Email</label>
+                            <label htmlFor="email">{t('Contact.Form.Email')}</label>
                             <input type="email" id="email" required />
                         </div>
                         <div className="form-group">
-                            <label htmlFor="phone">Phone</label>
+                            <label htmlFor="phone">{t('Contact.Form.Phone')}</label>
                             <input type="tel" id="phone" required />
                         </div>
                         <div className="form-group">
-                            <label htmlFor="service">Service</label>
+                            <label htmlFor="service">{t('Contact.Form.Service')}</label>
                             <select id="service" required>
-                                <option value="">Select a service</option>
-                                <option value="relajante">Relaxing Massage</option>
-                                <option value="terapeutico">Therapeutic Massage</option>
-                                <option value="deportivo">Sports Massage</option>
-                                <option value="otros">Other</option>
+                                <option value="">{t('Contact.Form.Select')}</option>
+                                <option value="relajante">{t('Contact.Form.Relaxing')}</option>
+                                <option value="terapeutico">{t('Contact.Form.Therapeutic')}</option>
+                                <option value="deportivo">{t('Contact.Form.Sports')}</option>
+                                <option value="otros">{t('Contact.Form.Other')}</option>
                             </select>
                         </div>
                         <div className="form-group">
-                            <label htmlFor="message">Message</label>
+                            <label htmlFor="message">{t('Contact.Form.Message')}</label>
                             <textarea id="message"></textarea>
                         </div>
-                        <button type="submit" className="button">Send Request</button>
+                        <button type="submit" className="button">{t('Contact.Form.Submit')}</button>
                     </form>
                 </div>
             </div>
         </section>
-    );
-};
+    )
+}

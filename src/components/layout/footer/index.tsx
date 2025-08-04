@@ -1,20 +1,20 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
 export const Footer = () => {
-    const navigate = useNavigate();
+    const navigate = useNavigate()
+    const { t } = useTranslation()
 
     const handleScrollTo = (sectionId: string) => {
-        navigate(`/#${sectionId}`);
-    };
+        navigate(`/#${sectionId}`)
+    }
 
     return (
         <footer>
             <div className="footer-container">
                 <div className="footer-column">
                     <h3>Lua Massage</h3>
-                    <p>
-                        Your space for wellness and balance in the heart of the city. Personalized therapies for body and mind.
-                    </p>
+                    <p>{t('Footer.Description')}</p>
                     <div className="social-links">
                         <a href="#"><i className="fab fa-facebook-f"></i></a>
                         <a href="#"><i className="fab fa-instagram"></i></a>
@@ -29,40 +29,40 @@ export const Footer = () => {
                 </div>
 
                 <div className="footer-column">
-                    <h3>Quick Links</h3>
+                    <h3>{t('Footer.QuickLinks')}</h3>
                     <ul>
-                        <li><a onClick={() => handleScrollTo('inicio')}>Home</a></li>
-                        <li><a onClick={() => handleScrollTo('servicios')}>Services</a></li>
-                        <li><a onClick={() => handleScrollTo('nosotros')}>About Us</a></li>
-                        <li><a onClick={() => handleScrollTo('testimonios')}>Testimonials</a></li>
-                        <li><a onClick={() => handleScrollTo('contacto')}>Contact</a></li>
+                        <li><a onClick={() => handleScrollTo('inicio')}>{t('Footer.Sections.Home')}</a></li>
+                        <li><a onClick={() => handleScrollTo('servicios')}>{t('Footer.Sections.Services')}</a></li>
+                        <li><a onClick={() => handleScrollTo('nosotros')}>{t('Footer.Sections.About')}</a></li>
+                        <li><a onClick={() => handleScrollTo('testimonios')}>{t('Footer.Sections.Testimonials')}</a></li>
+                        <li><a onClick={() => handleScrollTo('contacto')}>{t('Footer.Sections.Contact')}</a></li>
                     </ul>
                 </div>
 
                 <div className="footer-column">
-                    <h3>Services</h3>
+                    <h3>{t('Footer.ServiceList.Title')}</h3>
                     <ul>
-                        <li><a href="#">Relaxing Massage</a></li>
-                        <li><a href="#">Therapeutic Massage</a></li>
-                        <li><a href="#">Sports Massage</a></li>
-                        <li><a href="#">Reflexology</a></li>
-                        <li><a href="#">Aromatherapy</a></li>
+                        <li><a href="#">{t('Footer.ServiceList.Relaxing')}</a></li>
+                        <li><a href="#">{t('Footer.ServiceList.Therapeutic')}</a></li>
+                        <li><a href="#">{t('Footer.ServiceList.Sports')}</a></li>
+                        <li><a href="#">{t('Footer.ServiceList.Reflexology')}</a></li>
+                        <li><a href="#">{t('Footer.ServiceList.Aromatherapy')}</a></li>
                     </ul>
                 </div>
 
                 <div className="footer-column">
-                    <h3>Opening Hours</h3>
+                    <h3>{t('Footer.Schedule.Title')}</h3>
                     <ul>
-                        <li>Monday - Friday: 9:00 AM - 8:00 PM</li>
-                        <li>Saturday: 10:00 AM - 6:00 PM</li>
-                        <li>Sunday: Closed</li>
+                        <li>{t('Footer.Schedule.Week')}</li>
+                        <li>{t('Footer.Schedule.Saturday')}</li>
+                        <li>{t('Footer.Schedule.Sunday')}</li>
                     </ul>
                 </div>
             </div>
 
             <div className="copyright">
-                <p>&copy; 2025 Lua Massage. All rights reserved.</p>
+                <p>{t('Footer.Copyright')}</p>
             </div>
         </footer>
-    );
-};
+    )
+}

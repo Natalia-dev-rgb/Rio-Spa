@@ -11,7 +11,7 @@ export const ScrollToHash = () => {
             if (element) {
                 setTimeout(() => {
                     element.scrollIntoView({ behavior: 'smooth' });
-                }, 50); // Delay para asegurar que el DOM esté listo
+                }, 50);
             }
         }
     }, [location]);

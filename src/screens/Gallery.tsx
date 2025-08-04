@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { GalleryImages } from '../components/layout/GalleryImages';
 import { GalleryModal } from '../components/layout/GalleryModal';
 import { Header } from '../components/layout/header';
@@ -6,6 +7,7 @@ import { Footer } from '../components/layout/footer';
 
 export const Gallery: React.FC = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const { t } = useTranslation();
 
   return (
     <>
@@ -13,12 +15,9 @@ export const Gallery: React.FC = () => {
       <div>
         <section className="gallery-section">
           <div className="section-header">
-            <h1>Gallery</h1>
-            <p>
-              Discover our wellness space and the unique experiences we offer in every session.
-            </p>
+            <h1>{t('Gallery.Title')}</h1>
+            <p>{t('Gallery.Description')}</p>
           </div>
-
 
           <div className="gallery-grid" id="galleryGrid">
             <GalleryImages onSelect={setSelectedImage} />

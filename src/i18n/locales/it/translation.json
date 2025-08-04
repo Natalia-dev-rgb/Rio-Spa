@@ -1,0 +1,133 @@
+{
+    "Header": {
+        "Home": "Home",
+        "Gallery": "Galleria Fotografica",
+        "Book": "Prenota ora"
+    },
+    "Footer": {
+        "Description": "Il tuo spazio di benessere ed equilibrio nel cuore della città. Terapie personalizzate per corpo e mente.",
+        "QuickLinks": "Link Rapidi",
+        "Sections": {
+            "Home": "Home",
+            "Services": "Servizi",
+            "About": "Chi Siamo",
+            "Testimonials": "Testimonianze",
+            "Contact": "Contatto"
+        },
+        "ServiceList": {
+            "Title": "Servizi",
+            "Relaxing": "Massaggio Rilassante",
+            "Therapeutic": "Massaggio Terapeutico",
+            "Sports": "Massaggio Sportivo",
+            "Reflexology": "Riflessologia",
+            "Aromatherapy": "Aromaterapia"
+        },
+        "Schedule": {
+            "Title": "Orari di Apertura",
+            "Week": "Lunedì - Venerdì: 9:00 - 20:00",
+            "Saturday": "Sabato: 10:00 - 18:00",
+            "Sunday": "Domenica: Chiuso"
+        },
+        "Copyright": "© 2025 Lua Massage. Tutti i diritti riservati."
+    },
+    "Contact": {
+        "Title": "Contattaci",
+        "InfoTitle": "Informazioni di Contatto",
+        "Info": {
+            "Address": "Carrasquert 6, Città",
+            "Phone": "+34 675 06 57 98",
+            "Email": "info@luamassage.net",
+            "Schedule": "Lun - Sab: 9:00 - 20:00"
+        },
+        "BookTitle": "Prenota la tua Sessione",
+        "Form": {
+            "Name": "Nome",
+            "Email": "Email",
+            "Phone": "Telefono",
+            "Service": "Servizio",
+            "Select": "Seleziona un servizio",
+            "Relaxing": "Massaggio Rilassante",
+            "Therapeutic": "Massaggio Terapeutico",
+            "Sports": "Massaggio Sportivo",
+            "Other": "Altro",
+            "Message": "Messaggio",
+            "Submit": "Invia Richiesta"
+        }
+    },
+    "Testimonials": {
+        "Title": "Testimonianze dei Clienti",
+        "Quotes": [
+            {
+                "quote": "Dopo mesi di dolore alla schiena, i massaggi terapeutici di Lua sono stati la mia salvezza. L’atmosfera è rilassante e la professionalità dei terapisti è eccezionale.",
+                "author": "- María Fernández"
+            },
+            {
+                "quote": "Vengo regolarmente per tenere sotto controllo lo stress del lavoro. La combinazione di tecniche e l’attenzione personalizzata rendono ogni sessione un’esperienza unica.",
+                "author": "- Carlos Rodríguez"
+            },
+            {
+                "quote": "Come atleta, i massaggi sportivi di Lua sono una parte fondamentale della mia routine di allenamento. Hanno migliorato le mie prestazioni e aiutato a prevenire infortuni.",
+                "author": "- Laura Martínez"
+            }
+        ]
+    },
+    "Services": {
+        "Title": "I Nostri Servizi",
+        "ScheduleAppointment": "Fissare un appuntamento",
+        "Cards": [
+            {
+                "title": "Massaggio Rilassante",
+                "description": "Goditi movimenti dolci e fluidi che riducono la tensione e lo stress, migliorano la circolazione e offrono una profonda sensazione di benessere.",
+                "price": 60,
+                "time": 60,
+                "image": "relaxingImg"
+            },
+            {
+                "title": "Massaggio Terapeutico",
+                "description": "Trattamento specifico per dolori muscolari e articolari, mirato ad alleviare il dolore cronico e migliorare la mobilità.",
+                "price": 70,
+                "time": 60,
+                "image": "therapeuticImg"
+            },
+            {
+                "title": "Massaggio Sportivo",
+                "description": "Ideale per atleti e persone attive, aiuta a prevenire infortuni, accelerare il recupero muscolare e migliorare le prestazioni.",
+                "price": 75,
+                "time": 60,
+                "image": "sportsImg"
+            }
+        ]
+    },
+    "Carrousel": {
+        "Title": "Benvenuto da Lua Massage",
+        "Description": "Massaggi erotici e terapie sensuali in un'atmosfera esclusiva.",
+        "BookNow": "Prenota ora"
+    },
+    "About": {
+        "Title": "Massaggi Erotici Esclusivi",
+        "Subtitle": "Un’esperienza intima e personalizzata per il tuo benessere.",
+        "Paragraphs": [
+            "In ogni sessione, ti invito a vivere un momento unico, pensato per connetterti con il piacere, rilassare corpo e mente e liberare le tensioni attraverso un tocco consapevole e sensuale.",
+            "Questo servizio è rivolto a chi desidera vivere qualcosa di diverso con totale discrezione, senza fretta, in un ambiente dove ogni dettaglio è pensato per il tuo comfort e piacere."
+        ],
+        "Meet": "Conosci la Nostra Massaggiatrice"
+    },
+    "Gallery": {
+        "Title": "Galleria",
+        "Description": "Scopri il nostro spazio benessere e le esperienze uniche che offriamo in ogni sessione."
+    },
+    "AboutUs": {
+        "Title": "Chi Siamo",
+        "Description": "Scopri chi siamo e perché Lua Massage è il tuo spazio esclusivo di benessere a Valencia.",
+        "Paragraphs": [
+            "Lua Massage offre servizi di massaggi professionali in un ambiente privato e riservato nel cuore di Valencia, Spagna.",
+            "Siamo specializzati in terapie rilassanti e ispirate al tantra, progettate per offrire un’esperienza intima e profondamente rilassante a clienti che apprezzano la privacy e il comfort.",
+            "Che tu voglia liberare le tensioni, riconnetterti con i tuoi sensi o semplicemente fuggire dallo stress quotidiano, il nostro spazio è pensato per te."
+        ]
+    },
+    "Cookie": {
+        "Message": "Questo sito utilizza i cookie per migliorare la tua esperienza. Puoi accettare o rifiutare l’uso dei cookie non essenziali.",
+        "Accept": "Accetta",
+        "Reject": "Rifiuta"
+    }
+}

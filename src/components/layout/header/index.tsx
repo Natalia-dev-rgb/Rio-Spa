@@ -1,40 +1,38 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react'
+import { useTranslation } from 'react-i18next'
 import logo from '../../../assets/images/logo.jpg'
-import { whatsappLink } from '../../../utils/constants';
+import { getWhatsappLink } from '../../../utils/constants'
+import i18n from '../../../i18n'
+import LanguageSwitcher from '../../LangSwitch'
 
 export const Header: React.FC = () => {
-    const [menuOpen, setMenuOpen] = useState<boolean>(false);
-    const menuRef = useRef<HTMLUListElement>(null);
-    const buttonRef = useRef<HTMLButtonElement>(null);
+    const { t } = useTranslation()
+    const [menuOpen, setMenuOpen] = useState<boolean>(false)
+    const menuRef = useRef<HTMLUListElement>(null)
+    const buttonRef = useRef<HTMLButtonElement>(null)
+    const whatsappLink = getWhatsappLink(i18n.language as 'en' | 'es' | 'it')
 
-    const toggleMenu = () => {
-        setMenuOpen(prev => !prev);
-    };
-
-    const closeMenu = () => {
-        setMenuOpen(false);
-    };
+    const toggleMenu = () => setMenuOpen(prev => !prev)
+    const closeMenu = () => setMenuOpen(false)
 
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {
-            const target = event.target as HTMLElement;
-
+            const target = event.target as HTMLElement
             if (
                 menuRef.current &&
                 !menuRef.current.contains(target) &&
                 buttonRef.current &&
                 !buttonRef.current.contains(target)
             ) {
-                closeMenu();
+                closeMenu()
             }
-        };
+        }
 
-        document.addEventListener('click', handleClickOutside);
-
+        document.addEventListener('click', handleClickOutside)
         return () => {
-            document.removeEventListener('click', handleClickOutside);
-        };
-    }, []);
+            document.removeEventListener('click', handleClickOutside)
+        }
+    }, [])
 
     return (
         <header>
@@ -53,9 +51,16 @@ export const Header: React.FC = () => {
                 </div>
                 <nav>
                     <ul id="mobile-menu" ref={menuRef} className={menuOpen ? 'active' : ''}>
-                        <li><a href="/#/" onClick={closeMenu}>Home</a></li>
-                        <li><a href="/#/gallery" onClick={closeMenu}>Photo Gallery</a></li>
-                        <li className='bgBook'><a href={whatsappLink} target='_blank' onClick={closeMenu}>Book now</a></li>
+                        <li style={{ display: 'flex', justifyContent: 'flex-end', paddingRight: 15 }}>
+                            <a href="/#/" onClick={closeMenu}>{t('Header.Home')}</a>
+                            <LanguageSwitcher />
+                        </li>
+                        <li><a href="/#/gallery" onClick={closeMenu}>{t('Header.Gallery')}</a></li>
+                        <li className="bgBook">
+                            <a href={whatsappLink} target="_blank" onClick={closeMenu}>
+                                {t('Header.Book')}
+                            </a>
+                        </li>
                     </ul>
                 </nav>
                 <button
@@ -69,5 +74,5 @@ export const Header: React.FC = () => {
                 </button>
             </div>
         </header>
-    );
-};
+    )
+}

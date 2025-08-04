@@ -1,0 +1,133 @@
+{
+  "Header": {
+    "Home": "Home",
+    "Gallery": "Photo Gallery",
+    "Book": "Book now"
+  },
+  "Footer": {
+    "Description": "Your space for wellness and balance in the heart of the city. Personalized therapies for body and mind.",
+    "QuickLinks": "Quick Links",
+    "Sections": {
+      "Home": "Home",
+      "Services": "Services",
+      "About": "About Us",
+      "Testimonials": "Testimonials",
+      "Contact": "Contact"
+    },
+    "ServiceList": {
+      "Title": "Services",
+      "Relaxing": "Relaxing Massage",
+      "Therapeutic": "Therapeutic Massage",
+      "Sports": "Sports Massage",
+      "Reflexology": "Reflexology",
+      "Aromatherapy": "Aromatherapy"
+    },
+    "Schedule": {
+      "Title": "Opening Hours",
+      "Week": "Monday - Friday: 9:00 AM - 8:00 PM",
+      "Saturday": "Saturday: 10:00 AM - 6:00 PM",
+      "Sunday": "Sunday: Closed"
+    },
+    "Copyright": "© 2025 Lua Massage. All rights reserved."
+  },
+  "Contact": {
+    "Title": "Contact Us",
+    "InfoTitle": "Contact Information",
+    "Info": {
+      "Address": "Carrasquert 6, City",
+      "Phone": "+34 675 06 57 98",
+      "Email": "info@luamassage.net",
+      "Schedule": "Mon - Sat: 9:00 AM - 8:00 PM"
+    },
+    "BookTitle": "Book Your Session",
+    "Form": {
+      "Name": "Name",
+      "Email": "Email",
+      "Phone": "Phone",
+      "Service": "Service",
+      "Select": "Select a service",
+      "Relaxing": "Relaxing Massage",
+      "Therapeutic": "Therapeutic Massage",
+      "Sports": "Sports Massage",
+      "Other": "Other",
+      "Message": "Message",
+      "Submit": "Send Request"
+    }
+  },
+  "Testimonials": {
+    "Title": "Client Testimonials",
+    "Quotes": [
+      {
+        "quote": "After months of suffering from back pain, Lua’s therapeutic massages have been my salvation. The atmosphere is relaxing and the professionalism of the therapists is exceptional.",
+        "author": "- María Fernández"
+      },
+      {
+        "quote": "I come regularly to keep work stress at bay. The combination of techniques they use and the personalized attention make every session a unique experience.",
+        "author": "- Carlos Rodríguez"
+      },
+      {
+        "quote": "As an athlete, Lua’s sports massages are a fundamental part of my training routine. They’ve improved my performance and helped prevent injuries.",
+        "author": "- Laura Martínez"
+      }
+    ]
+  },
+  "Services": {
+    "Title": "Our Services",
+    "ScheduleAppointment": "Schedule Appointment",
+    "Cards": [
+      {
+        "title": "Relaxing Massage",
+        "description": "Enjoy smooth and fluid movements that reduce tension and stress, improve circulation, and provide a deep sense of well-being.",
+        "price": 60,
+        "time": 60,
+        "image": "relaxingImg"
+      },
+      {
+        "title": "Therapeutic Massage",
+        "description": "A specific treatment for muscle and joint pain, focused on relieving chronic pain and improving mobility in affected areas.",
+        "price": 70,
+        "time": 60,
+        "image": "therapeuticImg"
+      },
+      {
+        "title": "Sports Massage",
+        "description": "Ideal for athletes and active individuals, this massage helps prevent injuries, accelerate muscle recovery, and enhance physical performance.",
+        "price": 75,
+        "time": 60,
+        "image": "sportsImg"
+      }
+    ]
+  },
+  "Carrousel": {
+    "Title": "Welcome to Lua Massage",
+    "Description": "Erotic massages and sensual therapies in an exclusive atmosphere.",
+    "BookNow": "Book Now"
+  },
+  "About": {
+    "Title": "Exclusive Erotic Massages",
+    "Subtitle": "An intimate and personalized experience for your well-being.",
+    "Paragraphs": [
+      "In each session, I invite you to enjoy a unique moment, designed to connect with your pleasure, relax your body and mind, and release tension through conscious and sensual touch.",
+      "This service is aimed at people who want to experience something different with total discretion, without rushing, and in an environment where every detail is designed for your comfort and pleasure."
+    ],
+    "Meet": "Meet Our Masseuse"
+  },
+  "Gallery": {
+    "Title": "Gallery",
+    "Description": "Discover our wellness space and the unique experiences we offer in every session."
+  },
+  "AboutUs": {
+    "Title": "About Us",
+    "Description": "Discover who we are and why Lua Massage is your exclusive space of well-being in Valencia.",
+    "Paragraphs": [
+      "Lua Massage offers professional massage services in a discreet, private setting in the heart of Valencia, Spain.",
+      "We specialize in relaxing and tantra-inspired therapies, focused on providing a deeply calming and intimate experience for clients who value privacy and comfort.",
+      "Whether you seek to release tension, reconnect with your senses, or simply escape the stress of daily life, our space is designed for you."
+    ]
+  },
+  "Cookie": {
+    "Message": "This website uses cookies to enhance your experience. You can accept or reject the use of non-essential cookies.",
+    "Accept": "Accept",
+    "Reject": "Reject"
+  }
+}

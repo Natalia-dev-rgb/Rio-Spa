@@ -12,7 +12,7 @@ const ServicesOffered: React.FC<Props> = ({ language }) => {
   return (
     <section className="services">
       <h2 className="section-header">
-        {language === "en" ? "Our Services" : language === "es" ? "Nuestros Servicios" : "I""Nostri Servizi"}
+        {language === "en" ? "Our Services" : language === "es" ? "Nuestros Servicios" : "I Nostri Servizi"}
       </h2>
 
 <div className="services-container">
@@ -20,7 +20,7 @@ const ServicesOffered: React.FC<Props> = ({ language }) => {
           <div key={index} className="service-card">
             <div
               className="service-img"
-              style={{ backgroundImage: url(${service.img}) }}
+             style={{ backgroundImage: `url(${service.img})` }}
               aria-label={service.title}
             ></div>
             <div className="service-content">
@@ -29,8 +29,6 @@ const ServicesOffered: React.FC<Props> = ({ language }) => {
               <a className="boton_info" href={whatsappLink} target="_blank">
                 {service.moreInfo}
               </a>
-
-</a>
             </div>
           </div>
         ))}

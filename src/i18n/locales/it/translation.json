@@ -6,7 +6,7 @@
     },
     "Footer": {
         "Description": "Il tuo spazio di benessere ed equilibrio nel cuore della città. Terapie personalizzate per corpo e mente.",
-        "QuickLinks": "Collegamenti Rapidi",
+        "QuickLinks": "Link Rapidi",
         "Sections": {
             "Home": "Home",
             "Services": "Servizi",
@@ -39,7 +39,7 @@
             "Email": "info@luamassage.net",
             "Schedule": "Lun - Sab: 9:00 - 20:00"
         },
-        "BookTitle": "Prenota la Tua Sessione",
+        "BookTitle": "Prenota la tua Sessione",
         "Form": {
             "Name": "Nome",
             "Email": "Email",
@@ -58,49 +58,76 @@
         "Title": "Testimonianze dei Clienti",
         "Quotes": [
             {
-                "quote": "Dopo mesi di dolore alla schiena, i massaggi terapeutici di Lua sono stati la mia salvezza. L'atmosfera è rilassante e la professionalità dei terapisti è eccezionale.",
+                "quote": "Dopo mesi di dolore alla schiena, i massaggi terapeutici di Lua sono stati la mia salvezza. L’atmosfera è rilassante e la professionalità dei terapisti è eccezionale.",
                 "author": "- María Fernández"
             },
             {
-                "quote": "Vengo regolarmente per gestire lo stress lavorativo. La combinazione di tecniche e l'attenzione personalizzata rendono ogni sessione un'esperienza unica.",
+                "quote": "Vengo regolarmente per tenere sotto controllo lo stress del lavoro. La combinazione di tecniche e l’attenzione personalizzata rendono ogni sessione un’esperienza unica.",
                 "author": "- Carlos Rodríguez"
             },
             {
-                "quote": "Come atleta, i massaggi sportivi di Lua sono una parte fondamentale della mia routine. Hanno migliorato le mie prestazioni e aiutato a prevenire infortuni.",
+                "quote": "Come atleta, i massaggi sportivi di Lua sono una parte fondamentale della mia routine di allenamento. Hanno migliorato le mie prestazioni e aiutato a prevenire infortuni.",
                 "author": "- Laura Martínez"
             }
         ]
     },
     "Services": {
         "Title": "I Nostri Servizi",
+        "ScheduleAppointment": "Fissare un appuntamento",
         "Cards": [
             {
                 "title": "Massaggio Rilassante",
-                "description": "Goditi movimenti fluidi e delicati che riducono la tensione e lo stress, migliorano la circolazione e offrono una profonda sensazione di benessere."
+                "description": "Goditi movimenti dolci e fluidi che riducono la tensione e lo stress, migliorano la circolazione e offrono una profonda sensazione di benessere.",
+                "price": 60,
+                "time": 60,
+                "image": "relaxingImg"
             },
             {
                 "title": "Massaggio Terapeutico",
-                "description": "Un trattamento specifico per dolori muscolari e articolari, focalizzato sull’alleviare il dolore cronico e migliorare la mobilità."
+                "description": "Trattamento specifico per dolori muscolari e articolari, mirato ad alleviare il dolore cronico e migliorare la mobilità.",
+                "price": 70,
+                "time": 60,
+                "image": "therapeuticImg"
             },
             {
                 "title": "Massaggio Sportivo",
-                "description": "Ideale per atleti e persone attive, aiuta a prevenire infortuni, accelerare il recupero muscolare e migliorare le prestazioni fisiche."
+                "description": "Ideale per atleti e persone attive, aiuta a prevenire infortuni, accelerare il recupero muscolare e migliorare le prestazioni.",
+                "price": 75,
+                "time": 60,
+                "image": "sportsImg"
             }
-        ],
-        "MoreInfo": "Maggiori Informazioni"
+        ]
     },
     "Carrousel": {
-        "Title": "Benvenuti da Lua Massage",
+        "Title": "Benvenuto da Lua Massage",
         "Description": "Massaggi erotici e terapie sensuali in un'atmosfera esclusiva.",
-        "BookNow": "Prenota Ora"
+        "BookNow": "Prenota ora"
     },
     "About": {
         "Title": "Massaggi Erotici Esclusivi",
-        "Subtitle": "Un'esperienza intima e personalizzata per il tuo benessere.",
+        "Subtitle": "Un’esperienza intima e personalizzata per il tuo benessere.",
         "Paragraphs": [
-            "In ogni sessione ti invito a goderti un momento unico, pensato per connetterti con il piacere, rilassare corpo e mente, e liberare le tensioni con un tocco sensuale e consapevole.",
-            "Questo servizio è rivolto a chi desidera vivere qualcosa di diverso con totale discrezione, senza fretta e in un ambiente curato per il tuo comfort e piacere."
+            "In ogni sessione, ti invito a vivere un momento unico, pensato per connetterti con il piacere, rilassare corpo e mente e liberare le tensioni attraverso un tocco consapevole e sensuale.",
+            "Questo servizio è rivolto a chi desidera vivere qualcosa di diverso con totale discrezione, senza fretta, in un ambiente dove ogni dettaglio è pensato per il tuo comfort e piacere."
         ],
         "Meet": "Conosci la Nostra Massaggiatrice"
+    },
+    "Gallery": {
+        "Title": "Galleria",
+        "Description": "Scopri il nostro spazio benessere e le esperienze uniche che offriamo in ogni sessione."
+    },
+    "AboutUs": {
+        "Title": "Chi Siamo",
+        "Description": "Scopri chi siamo e perché Lua Massage è il tuo spazio esclusivo di benessere a Valencia.",
+        "Paragraphs": [
+            "Lua Massage offre servizi di massaggi professionali in un ambiente privato e riservato nel cuore di Valencia, Spagna.",
+            "Siamo specializzati in terapie rilassanti e ispirate al tantra, progettate per offrire un’esperienza intima e profondamente rilassante a clienti che apprezzano la privacy e il comfort.",
+            "Che tu voglia liberare le tensioni, riconnetterti con i tuoi sensi o semplicemente fuggire dallo stress quotidiano, il nostro spazio è pensato per te."
+        ]
+    },
+    "Cookie": {
+        "Message": "Questo sito utilizza i cookie per migliorare la tua esperienza. Puoi accettare o rifiutare l’uso dei cookie non essenziali.",
+        "Accept": "Accetta",
+        "Reject": "Rifiuta"
     }
 }

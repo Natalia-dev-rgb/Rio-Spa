@@ -1,13 +1,10 @@
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
 import aboutImgMb from '../assets/gallery/jessi-1.jpg'
 import aboutImg from '../assets/images/2.jpg'
-import i18n from '../i18n'
-import { getWhatsappLink } from '../utils/constants'
 
 export const About = () => {
     const { t } = useTranslation()
-    const whatsappLink = getWhatsappLink(i18n.language as 'en' | 'es' | 'it')
-
     const paragraphs = t('About.Paragraphs', { returnObjects: true }) as string[]
 
     return (
@@ -29,9 +26,9 @@ export const About = () => {
                     {paragraphs.map((text, index) => (
                         <p key={index}>{text}</p>
                     ))}
-                    <a href={whatsappLink} className="btn-equipo">
+                    <Link to="/about-us" className="btn-equipo">
                         {t('About.Meet')}
-                    </a>
+                    </Link>
                 </div>
             </div>
         </section>

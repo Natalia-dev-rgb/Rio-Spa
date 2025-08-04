@@ -64,4 +64,5 @@ export const ServicesOffered = () => {
             </div>
         </section>
     )
-}
+   }
+     export default ServicesOffered;

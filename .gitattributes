@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
+# Forzar a Git a manejar los archivos de texto como texto y normalizar los finales de línea a LF en el repo
+# Opción: si querés que los archivos HTML y CSS siempre se normalicen a LF en el repo
+*.html text eol=lf
+*.css  text eol=lf
 * text=auto

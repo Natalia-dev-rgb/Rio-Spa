@@ -1,60 +1,42 @@
-import relaxingImg from '../assets/images/2.jpg';
-import therapeuticImg from '../assets/images/3.jpg';
-import sportsImg from '../assets/images/4.jpg';
-import { whatsappLink } from '../utils/constants';
+import React from "react";
+import translations from "../utils/translations";
+import { whatsappLink } from "../utils/constants";
 
-export const ServicesOffered = () => {
-    return (
-        <section className="services" id="servicios">
-            <div className="section-header">
-                <h2>Our Services</h2>
+interface Props {
+  language: "en" | "es" | "it";
+}
+
+const ServicesOffered: React.FC<Props> = ({ language }) => {
+  const t = translations[language] || translations["en"];
+
+  return (
+    <section className="services">
+      <h2 className="section-header">
+        {language === "en" ? "Our Services" : language === "es" ? "Nuestros Servicios" : "I""Nostri Servizi"}
+      </h2>
+
+<div className="services-container">
+        {t.services.map((service, index) => (
+          <div key={index} className="service-card">
+            <div
+              className="service-img"
+              style={{ backgroundImage: url(${service.img}) }}
+              aria-label={service.title}
+            ></div>
+            <div className="service-content">
+              <h3>{service.title}</h3>
+              <p>{service.description}</p>
+              <a className="boton_info" href={whatsappLink} target="_blank">
+                {service.moreInfo}
+              </a>
+
+</a>
             </div>
-            <div className="services-grid">
-                <div className="service-card">
-                    <div
-                        className="service-img"
-                        style={{ backgroundImage: `url(${relaxingImg})` }}
-                    ></div>
-                    <div className="service-content">
-                        <h3>Relaxing Massage</h3>
-                        <p>
-                            Enjoy smooth and fluid movements that reduce tension and stress,
-                            improve circulation, and provide a deep sense of well-being.
-                        </p>
-                        <a href={whatsappLink} target='_blank' className="boton-info">More Information</a>
-                    </div>
-                </div>
-
-                <div className="service-card">
-                    <div
-                        className="service-img"
-                        style={{ backgroundImage: `url(${therapeuticImg})` }}
-                    ></div>
-                    <div className="service-content">
-                        <h3>Therapeutic Massage</h3>
-                        <p>
-                            A specific treatment for muscle and joint pain, focused on relieving chronic pain
-                            and improving mobility in affected areas.
-                        </p>
-                        <a href={whatsappLink} target='_blank' className="boton-info">More Information</a>
-                    </div>
-                </div>
-
-                <div className="service-card">
-                    <div
-                        className="service-img"
-                        style={{ backgroundImage: `url(${sportsImg})` }}
-                    ></div>
-                    <div className="service-content">
-                        <h3>Sports Massage</h3>
-                        <p>
-                            Ideal for athletes and active individuals, this massage helps prevent injuries,
-                            accelerate muscle recovery, and enhance physical performance.
-                        </p>
-                        <a href={whatsappLink} target='_blank' className="boton-info">More Information</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    );
+          </div>
+        ))}
+      </div>
+    </section>
+  );
 };
+
+export default ServicesOffered;

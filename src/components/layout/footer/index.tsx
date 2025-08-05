@@ -54,8 +54,6 @@ export const Footer = () => {
                     <h3>{t('Footer.Schedule.Title')}</h3>
                     <ul>
                         <li>{t('Footer.Schedule.Week')}</li>
-                        <li>{t('Footer.Schedule.Saturday')}</li>
-                        <li>{t('Footer.Schedule.Sunday')}</li>
                     </ul>
                 </div>
             </div>

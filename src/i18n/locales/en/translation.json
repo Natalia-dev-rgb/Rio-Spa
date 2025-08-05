@@ -24,9 +24,7 @@
     },
     "Schedule": {
       "Title": "Opening Hours",
-      "Week": "Monday - Friday: 9:00 AM - 8:00 PM",
-      "Saturday": "Saturday: 10:00 AM - 6:00 PM",
-      "Sunday": "Sunday: Closed"
+      "Week": "AVAILABLE 24/7"
     },
     "Copyright": "© 2025 Lua Massage. All rights reserved."
   },
@@ -37,7 +35,7 @@
       "Address": "Carrasquert 6, City",
       "Phone": "+34 675 06 57 98",
       "Email": "info@luamassage.net",
-      "Schedule": "Mon - Sat: 9:00 AM - 8:00 PM"
+      "Schedule": "AVAILABLE 24/7"
     },
     "BookTitle": "Book Your Session",
     "Form": {

@@ -24,9 +24,7 @@
     },
     "Schedule": {
       "Title": "Horarios de Atención",
-      "Week": "Lunes - Viernes: 9:00 - 20:00",
-      "Saturday": "Sábado: 10:00 - 18:00",
-      "Sunday": "Domingo: Cerrado"
+      "Week": "DISPONIBLE 24/7"
     },
     "Copyright": "© 2025 Lua Massage. Todos los derechos reservados."
   },
@@ -37,7 +35,7 @@
       "Address": "Carrasquert 6, Ciudad",
       "Phone": "+34 675 06 57 98",
       "Email": "info@luamassage.net",
-      "Schedule": "Lun - Sáb: 9:00 - 20:00"
+      "Schedule": "DISPONIBLE 24/7"
     },
     "BookTitle": "Reserva tu Sesión",
     "Form": {

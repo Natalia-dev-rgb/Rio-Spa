@@ -76,24 +76,48 @@
     "ScheduleAppointment": "Agendar cita",
     "Cards": [
       {
-        "title": "Masaje Relajante",
-        "description": "Disfruta de movimientos suaves y fluidos que reducen la tensión y el estrés, mejoran la circulación y brindan una profunda sensación de bienestar.",
-        "price": 60,
-        "time": 60,
+        "title": "Lux Massage",
+        "description": "Masaje Lux (semidesnuda) masaje relajante, sesitivo, muy sensual.",
+        "duration": [
+          {
+            "time": "45 min",
+            "price": "100 €"
+          },
+          {
+            "time": "30 min",
+            "price": "70 €"
+          }
+        ],
         "image": "relaxingImg"
       },
       {
-        "title": "Masaje Terapéutico",
-        "description": "Tratamiento específico para el dolor muscular y articular, enfocado en aliviar el dolor crónico y mejorar la movilidad.",
-        "price": 70,
-        "time": 60,
+        "title": "Masaje Delux",
+        "description": "(Totalmente desnuda) cuerpo a cuerpo, reljante, sensitivo, muy sensual(se puede tocar iteractuar)",
+        "duration": [
+          {
+            "time": "1h",
+            "price": "180 €"
+          },
+          {
+            "time": "45min",
+            "price": "150 €"
+          },
+          {
+            "time": "30 min",
+            "price": "120 €"
+          }
+        ],
         "image": "therapeuticImg"
       },
       {
-        "title": "Masaje Deportivo",
-        "description": "Ideal para atletas y personas activas, ayuda a prevenir lesiones, acelerar la recuperación muscular y mejorar el rendimiento físico.",
-        "price": 75,
-        "time": 60,
+        "title": "Luxury Delux",
+        "description": "Masaje muy sensual y completo, tocando puntos clave, para la relajacion total del cuerpo (interactivo, se puede tocar) incluye ducha erotica y prostatico si asi lo deceas.",
+        "duration": [
+          {
+            "time": "1h",
+            "price": "220 €"
+          }
+        ],
         "image": "sportsImg"
       }
     ]

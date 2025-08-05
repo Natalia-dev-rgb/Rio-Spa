@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
-import relaxingImg from '../assets/images/2.jpg'
-import therapeuticImg from '../assets/images/3.jpg'
-import sportsImg from '../assets/images/4.jpg'
+import relaxingImg from '../assets/images/relaxingImg.jpeg'
+import therapeuticImg from '../assets/images/therapeuticImg.jpeg'
+import sportsImg from '../assets/images/sportsImg.jpeg'
 import i18n from '../i18n'
 
 export const ServicesOffered = () => {
@@ -11,8 +11,7 @@ export const ServicesOffered = () => {
     const services = t('Services.Cards', { returnObjects: true }) as Array<{
         title: string
         description: string
-        price: number
-        time: number
+        duration: Array<{ time: string; price: string }>
         image: string
     }>
 
@@ -50,7 +49,14 @@ export const ServicesOffered = () => {
                         <div className="service-content">
                             <h3>{service.title}</h3>
                             <p>{service.description}</p>
-                            <p><strong>{service.price}€</strong> - {service.time} min</p>
+                            <ul>
+                                {service.duration.map((d, i) => (
+                                    <li key={i} style={{ display: 'flex', justifyContent: 'space-around', }}>
+                                        <strong>{d.price}</strong>  {d.time}
+                                    </li>
+                                ))}
+                            </ul>
+                            <br />
                             <a
                                 href={getWhatsappLink(lang, service.title)}
                                 target="_blank"

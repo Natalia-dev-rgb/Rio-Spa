@@ -2,7 +2,7 @@
   "Header": {
     "Home": "Home",
     "Gallery": "Photo Gallery",
-    "Book": "Book now"
+    "Book": "Book Now"
   },
   "Footer": {
     "Description": "Your space for wellness and balance in the heart of the city. Personalized therapies for body and mind.",
@@ -51,56 +51,80 @@
       "Sports": "Sports Massage",
       "Other": "Other",
       "Message": "Message",
-      "Submit": "Send Request"
+      "Submit": "Submit Request"
     }
   },
   "Testimonials": {
     "Title": "Client Testimonials",
     "Quotes": [
       {
-        "quote": "After months of suffering from back pain, Lua’s therapeutic massages have been my salvation. The atmosphere is relaxing and the professionalism of the therapists is exceptional.",
+        "quote": "After months of back pain, Lua's therapeutic massages have been my salvation. The atmosphere is relaxing and the therapists’ professionalism is exceptional.",
         "author": "- María Fernández"
       },
       {
-        "quote": "I come regularly to keep work stress at bay. The combination of techniques they use and the personalized attention make every session a unique experience.",
+        "quote": "I come regularly to keep work stress at bay. The combination of techniques and personalized care make each session a unique experience.",
         "author": "- Carlos Rodríguez"
       },
       {
-        "quote": "As an athlete, Lua’s sports massages are a fundamental part of my training routine. They’ve improved my performance and helped prevent injuries.",
+        "quote": "As an athlete, Lua’s sports massages are a key part of my training routine. They’ve improved my performance and helped prevent injuries.",
         "author": "- Laura Martínez"
       }
     ]
   },
   "Services": {
     "Title": "Our Services",
-    "ScheduleAppointment": "Schedule Appointment",
+    "ScheduleAppointment": "Book Appointment",
     "Cards": [
       {
-        "title": "Relaxing Massage",
-        "description": "Enjoy smooth and fluid movements that reduce tension and stress, improve circulation, and provide a deep sense of well-being.",
-        "price": 60,
-        "time": 60,
+        "title": "Lux Massage",
+        "description": "Lux Massage (semi-nude), relaxing, sensitive, very sensual.",
+        "duration": [
+          {
+            "time": "45 min",
+            "price": "100 €"
+          },
+          {
+            "time": "30 min",
+            "price": "70 €"
+          }
+        ],
         "image": "relaxingImg"
       },
       {
-        "title": "Therapeutic Massage",
-        "description": "A specific treatment for muscle and joint pain, focused on relieving chronic pain and improving mobility in affected areas.",
-        "price": 70,
-        "time": 60,
+        "title": "Delux Massage",
+        "description": "(Fully nude) body-to-body, relaxing, sensitive, very sensual (touch and interaction allowed).",
+        "duration": [
+          {
+            "time": "1h",
+            "price": "180 €"
+          },
+          {
+            "time": "45min",
+            "price": "150 €"
+          },
+          {
+            "time": "30 min",
+            "price": "120 €"
+          }
+        ],
         "image": "therapeuticImg"
       },
       {
-        "title": "Sports Massage",
-        "description": "Ideal for athletes and active individuals, this massage helps prevent injuries, accelerate muscle recovery, and enhance physical performance.",
-        "price": 75,
-        "time": 60,
+        "title": "Luxury Delux",
+        "description": "Very sensual and complete massage, stimulating key areas for total body relaxation (interactive, touch allowed). Includes erotic shower and prostate massage upon request.",
+        "duration": [
+          {
+            "time": "1h",
+            "price": "220 €"
+          }
+        ],
         "image": "sportsImg"
       }
     ]
   },
   "Carrousel": {
     "Title": "Welcome to Lua Massage",
-    "Description": "Erotic massages and sensual therapies in an exclusive atmosphere.",
+    "Description": "Erotic massages and sensual therapies in an exclusive setting.",
     "BookNow": "Book Now"
   },
   "About": {
@@ -108,9 +132,9 @@
     "Subtitle": "An intimate and personalized experience for your well-being.",
     "Paragraphs": [
       "In each session, I invite you to enjoy a unique moment, designed to connect with your pleasure, relax your body and mind, and release tension through conscious and sensual touch.",
-      "This service is aimed at people who want to experience something different with total discretion, without rushing, and in an environment where every detail is designed for your comfort and pleasure."
+      "This service is for people looking to experience something different with full discretion, no rush, and in an environment where every detail is designed for your comfort and pleasure."
     ],
-    "Meet": "Meet Our Masseuse"
+    "Meet": "Meet Our Masseur"
   },
   "Gallery": {
     "Title": "Gallery",
@@ -118,11 +142,11 @@
   },
   "AboutUs": {
     "Title": "About Us",
-    "Description": "Discover who we are and why Lua Massage is your exclusive space of well-being in Valencia.",
+    "Description": "Learn who we are and why Lua Massage is your exclusive wellness space in Valencia.",
     "Paragraphs": [
-      "Lua Massage offers professional massage services in a discreet, private setting in the heart of Valencia, Spain.",
-      "We specialize in relaxing and tantra-inspired therapies, focused on providing a deeply calming and intimate experience for clients who value privacy and comfort.",
-      "Whether you seek to release tension, reconnect with your senses, or simply escape the stress of daily life, our space is designed for you."
+      "Lua Massage offers professional massage services in a private and discreet setting in the heart of Valencia, Spain.",
+      "We specialize in relaxing and tantra-inspired therapies designed to offer a deeply calming and intimate experience to clients who value privacy and comfort.",
+      "Whether you're looking to release tension, reconnect with your senses, or simply escape daily stress, our space is designed for you."
     ]
   },
   "Cookie": {

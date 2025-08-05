@@ -78,31 +78,48 @@
       {
         "title": "Lux Massage",
         "description": "Masaje Lux (semidesnuda) masaje relajante, sesitivo, muy sensual.",
-        "duration":[
-        {"time": "45 min", "price": "100 €"},
-        {"time": "30 min", "price":"70 €"}
+        "duration": [
+          {
+            "time": "45 min",
+            "price": "100 €"
+          },
+          {
+            "time": "30 min",
+            "price": "70 €"
+          }
         ],
-        "image": "relaxingImg",
-        
+        "image": "relaxingImg"
       },
       {
         "title": "Masaje Delux",
         "description": "(Totalmente desnuda) cuerpo a cuerpo, reljante, sensitivo, muy sensual(se puede tocar iteractuar)",
-        "duration":[
-        {"time": "1h", "price": "180 €"},
-        {"time": "45min", "price":"150 €"},
-        {"time":"30 min", "price":"120 €"}
+        "duration": [
+          {
+            "time": "1h",
+            "price": "180 €"
+          },
+          {
+            "time": "45min",
+            "price": "150 €"
+          },
+          {
+            "time": "30 min",
+            "price": "120 €"
+          }
         ],
-        "image": "therapeuticImg",
+        "image": "therapeuticImg"
       },
       {
         "title": "Luxury Delux",
         "description": "Masaje muy sensual y completo, tocando puntos clave, para la relajacion total del cuerpo (interactivo, se puede tocar) incluye ducha erotica y prostatico si asi lo deceas.",
-       "duration":[
-        {"time": "1h", "price":"220 €"}
-       ],
-        "image": "sportsImg",
-      },
+        "duration": [
+          {
+            "time": "1h",
+            "price": "220 €"
+          }
+        ],
+        "image": "sportsImg"
+      }
     ]
   },
   "Carrousel": {

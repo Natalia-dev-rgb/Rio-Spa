@@ -5,7 +5,7 @@
     "Book": "Book now"
   },
   "Footer": {
-    "Description": "Your space for wellness and balance in the heart of the city. Personalized therapies for body and mind.",
+    "Description": "Rio-Spa is a space where water,calm,and nature come together to restore balance to your body and mind.",
     "QuickLinks": "Quick Links",
     "Sections": {
       "Home": "Home",
@@ -24,20 +24,24 @@
     },
     "Schedule": {
       "Title": "Opening Hours",
-      "Week": "Monday - Friday: 9:00 AM - 8:00 PM",
-      "Saturday": "Saturday: 10:00 AM - 6:00 PM",
-      "Sunday": "Sunday: Closed"
+      "Monday": " 9:00 AM - 18:00 PM",
+      "Tuesday":"9:00 AM - 18:00 PM",
+      "Wendesday":"9:00 AM - 18:00 PM",
+      "Thursday": "9:00 AM - 18:00 PM",
+      "Friday": "9:00 AM - 18:00 PM",
+      "Saturday":"9:00 AM - 18:00 PM",
+      "Sunday":"Closed"
     },
-    "Copyright": "© 2025 Lua Massage. All rights reserved."
+    "Copyright": "© 2025 Rio-Spa. All rights reserved."
   },
   "Contact": {
     "Title": "Contact Us",
     "InfoTitle": "Contact Information",
     "Info": {
-      "Address": "Carrasquert 6, City",
-      "Phone": "+34 675 06 57 98",
-      "Email": "info@luamassage.net",
-      "Schedule": "Mon - Sat: 9:00 AM - 8:00 PM"
+      "Address": "San Martin 675",
+      "Phone": "+11345678",
+      "Email": "info@Rio-Spa.net",
+      "Schedule": "Mon - Sat: 9:00 AM - 18:00 PM"
     },
     "BookTitle": "Book Your Session",
     "Form": {
@@ -99,30 +103,30 @@
     ]
   },
   "Carrousel": {
-    "Title": "Welcome to Lua Massage",
-    "Description": "Erotic massages and sensual therapies in an exclusive atmosphere.",
+    "Title": "Therapeutic Massages",
+    "Description": "Relieve muscle tension, improve circulation, and restore your body´s vitality.",
     "BookNow": "Book Now"
   },
   "About": {
-    "Title": "Exclusive Erotic Massages",
-    "Subtitle": "An intimate and personalized experience for your well-being.",
+    "Title": "About Us",
+    "Subtitle": "Your refuge of peace and energy.",
     "Paragraphs": [
-      "In each session, I invite you to enjoy a unique moment, designed to connect with your pleasure, relax your body and mind, and release tension through conscious and sensual touch.",
-      "This service is aimed at people who want to experience something different with total discretion, without rushing, and in an environment where every detail is designed for your comfort and pleasure."
+    "At Rio-Spa , we believe wellness is a journey.We create an environment of peace and harmony so you can can disconnet whith your essence.",
+      "Our team combines traditional and modern techniques to provide you with a unique experience of relaxation,beauty,and personal care."
     ],
-    "Meet": "Meet Our Masseuse"
+    "Meet": "Discover our Space"
   },
   "Gallery": {
     "Title": "Gallery",
-    "Description": "Discover our wellness space and the unique experiences we offer in every session."
+    "Description": "Discover our Wellness space and the unique experiences we offer in every session."
   },
   "AboutUs": {
     "Title": "About Us",
-    "Description": "Discover who we are and why Lua Massage is your exclusive space of well-being in Valencia.",
+    "Description": "Learn who we are and why Rio-Spa is your exclusive wellness space.",
     "Paragraphs": [
-      "Lua Massage offers professional massage services in a discreet, private setting in the heart of Valencia, Spain.",
-      "We specialize in relaxing and tantra-inspired therapies, focused on providing a deeply calming and intimate experience for clients who value privacy and comfort.",
-      "Whether you seek to release tension, reconnect with your senses, or simply escape the stress of daily life, our space is designed for you."
+      "Relax your body and mind in a peaceful environment.",
+      "Treatments that care for your body and release tension.",
+      "Each session tailored to your needs."
     ]
   },
   "Cookie": {

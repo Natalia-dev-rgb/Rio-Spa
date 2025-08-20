@@ -5,7 +5,7 @@
     "Book": "Reservar ahora"
   },
   "Footer": {
-    "Description": "Tu espacio de bienestar y equilibrio en el corazón de la ciudad. Terapias personalizadas para cuerpo y mente.",
+    "Description": "Rio-Spa, un espacio donde el agua, la calma y la naturaleza se encuentran para devolverle equilibrio a tu cuerpo y a tu mente.",
     "QuickLinks": "Enlaces Rápidos",
     "Sections": {
       "Home": "Inicio",
@@ -24,20 +24,25 @@
     },
     "Schedule": {
       "Title": "Horarios de Atención",
-      "Week": "Lunes - Viernes: 9:00 - 20:00",
-      "Saturday": "Sábado: 10:00 - 18:00",
-      "Sunday": "Domingo: Cerrado"
+      "Monday": "9:00 AM - 18:00 PM",
+      "Tuesday":" 9:00 AM - 18:00 PM",
+      "Wendesday":" 9:00 AM - 18:00 PM",
+      "Thursday":"9:00 AM - 18:00 PM",
+      "Friday":"9:00 AM - 18:00 PM",
+      "Saturday":"9:00 AM - 18:00 PM",
+      "Sunday":"Sunday: Closed"
+
     },
-    "Copyright": "© 2025 Lua Massage. Todos los derechos reservados."
+    "Copyright": "© 2025 Rio-Spa . Todos los derechos reservados."
   },
   "Contact": {
     "Title": "Contáctanos",
     "InfoTitle": "Información de Contacto",
     "Info": {
-      "Address": "Carrasquert 6, Ciudad",
-      "Phone": "+34 675 06 57 98",
-      "Email": "info@luamassage.net",
-      "Schedule": "Lun - Sáb: 9:00 - 20:00"
+      "Address": "San Martin 675",
+      "Phone": "+11345678",
+      "Email": "info@Rio-Spa.net",
+      "Schedule": "Lun - Sáb: 9:00 - 18:00"
     },
     "BookTitle": "Reserva tu Sesión",
     "Form": {
@@ -99,18 +104,18 @@
     ]
   },
   "Carrousel": {
-    "Title": "Bienvenido a Lua Massage",
-    "Description": "Masajes eróticos y terapias sensuales en un ambiente exclusivo.",
+    "Title": "Masajes Terapeuticos",
+    "Description": "Río-Spa es un espacio donde el agua, la calma y la naturaleza se encuentran, para devolver equilibrio a tu cuerpo y mente.",
     "BookNow": "Reservar ahora"
   },
   "About": {
-    "Title": "Masajes Eróticos Exclusivos",
-    "Subtitle": "Una experiencia íntima y personalizada para tu bienestar.",
+    "Title": "Sobre Nosotros",
+    "Subtitle": "Tu refugio de paz y energia.",
     "Paragraphs": [
-      "En cada sesión, te invito a disfrutar de un momento único, diseñado para conectar con tu placer, relajar tu cuerpo y mente, y liberar tensiones a través del tacto consciente y sensual.",
-      "Este servicio está dirigido a personas que desean experimentar algo diferente con total discreción, sin prisas y en un entorno donde cada detalle está pensado para tu comodidad y placer."
+      "En Rio Spa creemos que el bienestar es un viaje. Creamos un ambiente de paz y armonia para que puedas desconectarte del estres y reconectar con tu esencia.",
+      "Nuestro equipo combina tecnicas tradicionales y modernas para brindarle una experiencia unica de relajacion, belleza y cuidado personal."
     ],
-    "Meet": "Conoce a Nuestra Masajista"
+    "Meet": "Conoce Nuestro Espacio"
   },
   "Gallery": {
     "Title": "Galería",
@@ -118,14 +123,14 @@
   },
   "AboutUs": {
     "Title": "Sobre Nosotros",
-    "Description": "Conoce quiénes somos y por qué Lua Massage es tu espacio exclusivo de bienestar en Valencia.",
+    "Description": "Conoce quiénes somos y por que Rio-Spa es tu espacio exclusivo de bienestar.",
     "Paragraphs": [
-      "Lua Massage ofrece servicios de masajes profesionales en un entorno privado y discreto en el corazón de Valencia, España.",
-      "Estamos especializados en terapias relajantes y con inspiración tántrica, pensadas para brindar una experiencia profundamente calmante e íntima a clientes que valoran la privacidad y el confort.",
-      "Ya sea que busques liberar tensiones, reconectar con tus sentidos o simplemente escapar del estrés diario, nuestro espacio está diseñado para ti."
+      "Relaja cuerpo y mente en un ambiente tranquilo.",
+      "Tratamientos que cuidan el cuerpo y lo liberan de tensiones.",
+      "Cada sesion adaptada a tus necesidades."
     ]
   },
-  "Cookie": {
+    "Cookie": {
     "Message": "Este sitio web utiliza cookies para mejorar tu experiencia. Podés aceptar o rechazar el uso de cookies no esenciales.",
     "Accept": "Aceptar",
     "Reject": "Rechazar"

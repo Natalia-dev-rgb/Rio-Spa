@@ -5,7 +5,7 @@
         "Book": "Prenota ora"
     },
     "Footer": {
-        "Description": "Il tuo spazio di benessere ed equilibrio nel cuore della città. Terapie personalizzate per corpo e mente.",
+        "Description": "Alleviano le tensioni muscolari, miglionaro la circolazione e restituiscono vitalita al tuo corpo.",
         "QuickLinks": "Link Rapidi",
         "Sections": {
             "Home": "Home",
@@ -24,20 +24,24 @@
         },
         "Schedule": {
             "Title": "Orari di Apertura",
-            "Week": "Lunedì - Venerdì: 9:00 - 20:00",
-            "Saturday": "Sabato: 10:00 - 18:00",
-            "Sunday": "Domenica: Chiuso"
+            "Monday": "9:00 AM - 18:00 PM",
+            "Tuesday": "9:00 AM - 18:00 PM",
+            "Wendesday":"9:00 AM - 18:00 PM",
+            "Thursday":"9:00 AM - 18:00 PM",
+            "Friday":"9:00 AM - 18:00 PM",
+            "Saturday":"9:00 AM - 18:00 PM",
+            "Sunday": "Closed"
         },
-        "Copyright": "© 2025 Lua Massage. Tutti i diritti riservati."
+        "Copyright": "© 2025 Rio-Spa. Tutti i diritti riservati."
     },
     "Contact": {
         "Title": "Contattaci",
         "InfoTitle": "Informazioni di Contatto",
         "Info": {
-            "Address": "Carrasquert 6, Città",
-            "Phone": "+34 675 06 57 98",
-            "Email": "info@luamassage.net",
-            "Schedule": "Lun - Sab: 9:00 - 20:00"
+            "Address": "San Martin 675",
+            "Phone": "+11345678",
+            "Email": "info@Rio-Spa.net",
+            "Schedule": "Lun - Sab: 9:00 - 18:00"
         },
         "BookTitle": "Prenota la tua Sessione",
         "Form": {
@@ -99,31 +103,32 @@
         ]
     },
     "Carrousel": {
-        "Title": "Benvenuto da Lua Massage",
-        "Description": "Massaggi erotici e terapie sensuali in un'atmosfera esclusiva.",
+        "Title": "Benvenuto da Rio-Spa",
+        "Description": "Alleviano le tensioni muscolari,miglionaro la circolazione e restituscono vitalita al tuo corpo.",
         "BookNow": "Prenota ora"
     },
     "About": {
-        "Title": "Massaggi Erotici Esclusivi",
-        "Subtitle": "Un’esperienza intima e personalizzata per il tuo benessere.",
+        "Title": "Chi Siamo",
+        "Subtitle": "Il tuo rifugio di pace ed energia.",
         "Paragraphs": [
-            "In ogni sessione, ti invito a vivere un momento unico, pensato per connetterti con il piacere, rilassare corpo e mente e liberare le tensioni attraverso un tocco consapevole e sensuale.",
-            "Questo servizio è rivolto a chi desidera vivere qualcosa di diverso con totale discrezione, senza fretta, in un ambiente dove ogni dettaglio è pensato per il tuo comfort e piacere."
+            "Al Rio-Spa crediano che il benessere sia un viaggio.",
+            "Creiamo un ambiente di pace e armonia affinche tu possa disconnetterti dallo stress e riconnetterti con la tua essenza.",
+            "Il nostro team combina tecniche tradizionali e moderne per offrirtri un esperienza unica di relax, bellezza e cura personale."
         ],
-        "Meet": "Conosci la Nostra Massaggiatrice"
+        "Meet": "Scorpi il Nosotro Spazio"
     },
     "Gallery": {
         "Title": "Galleria",
-        "Description": "Scopri il nostro spazio benessere e le esperienze uniche che offriamo in ogni sessione."
+        "Description": "Esplora il nostro spazio di benessere e le esperienze uniche che offriamo in ogni sessione."
     },
     "AboutUs": {
         "Title": "Chi Siamo",
         "Description": "Scopri chi siamo e perché Lua Massage è il tuo spazio esclusivo di benessere a Valencia.",
         "Paragraphs": [
-            "Lua Massage offre servizi di massaggi professionali in un ambiente privato e riservato nel cuore di Valencia, Spagna.",
-            "Siamo specializzati in terapie rilassanti e ispirate al tantra, progettate per offrire un’esperienza intima e profondamente rilassante a clienti che apprezzano la privacy e il comfort.",
-            "Che tu voglia liberare le tensioni, riconnetterti con i tuoi sensi o semplicemente fuggire dallo stress quotidiano, il nostro spazio è pensato per te."
-        ]
+                       "Rilassa corpo e mente in un ambiente tranquillo.",
+                       "Trattamenti che si prendono cura del corpo e lo liberano dalle tensioni.",
+                          "Ogni sessione adattata alle tue esigenze."
+                        ]
     },
     "Cookie": {
         "Message": "Questo sito utilizza i cookie per migliorare la tua esperienza. Puoi accettare o rifiutare l’uso dei cookie non essenziali.",

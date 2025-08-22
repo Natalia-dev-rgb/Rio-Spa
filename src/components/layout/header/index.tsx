@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
-import logo from '../../../assets/images/logo.jpg'
+import logo from '../../../assets/images/logotipo-Rio Spa.jpg'
 import { getWhatsappLink } from '../../../utils/constants'
 import i18n from '../../../i18n'
 import LanguageSwitcher from '../../LangSwitch'
@@ -39,7 +39,7 @@ export const Header: React.FC = () => {
             <div className="header-container">
                 <div className="logo">
                     <a href="/">
-                        <img src={logo} className="faded-image" alt="Logo Lua Massage" />
+                        <img src={logo} className="faded-image" alt="Logotipo Rio-Spa"/>
                     </a>
                     <svg width="0" height="0">
                         <path
@@ -47,7 +47,7 @@ export const Header: React.FC = () => {
                             fill="#c95f82"
                         />
                     </svg>
-                    <div className="logo-text">Lua Massage</div>
+                    <div className="logo-text">Rio-Spa</div>
                 </div>
                 <nav>
                     <ul id="mobile-menu" ref={menuRef} className={menuOpen ? 'active' : ''}>

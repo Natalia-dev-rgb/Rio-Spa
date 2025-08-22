@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
-import relaxingImg from '../assets/images/2.jpg'
-import therapeuticImg from '../assets/images/3.jpg'
-import sportsImg from '../assets/images/4.jpg'
+import relaxingImg from '../assets/images/img.msg.1.jpeg'
+import therapeuticImg from '../assets/images/img.msg.3.avif'
+import sportsImg from '../assets/images/img.msg2.jpg'
 import i18n from '../i18n'
 
 export const ServicesOffered = () => {

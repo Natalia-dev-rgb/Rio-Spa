@@ -13,7 +13,7 @@ export const Footer = () => {
         <footer>
             <div className="footer-container">
                 <div className="footer-column">
-                    <h3>Lua Massage</h3>
+                    <h3>Rio-Spa</h3>
                     <p>{t('Footer.Description')}</p>
                     <div className="social-links">
                         <a href="#"><i className="fab fa-facebook-f"></i></a>

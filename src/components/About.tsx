@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
-import aboutImgMb from '../assets/gallery/jessi-1.jpg'
-import aboutImg from '../assets/images/2.jpg'
+ import aboutImgMb from '../assets/images/Rio-Spa-images.jpg'
+import aboutImg from '../assets/images/Rio-Spa-images2.jpg'
 
 export const About = () => {
     const { t } = useTranslation()

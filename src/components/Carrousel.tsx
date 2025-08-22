@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import mobile1 from '../assets/carrousel/jessi-c-m-1.jpg'
-import mobile2 from '../assets/carrousel/jessi-c-m-2.jpg'
-import desktop1 from '../assets/carrousel/jessi-c-d-2.jpg'
-import desktop2 from '../assets/carrousel/jessi-c-d-1.jpeg'
+import mobile1 from '../assets/carrousel/spa1.webp'
+import mobile2 from '../assets/carrousel/spa.web3.jpeg'
+import desktop1 from '../assets/carrousel/Rio-Spa5.jpg'
+import desktop2 from '../assets/carrousel/spa.web4.webp'
 import { getWhatsappLink } from '../utils/constants'
 import i18n from '../i18n'
 
@@ -17,12 +17,12 @@ const slides: Slide[] = [
   {
     mobileSrc: mobile1,
     desktopSrc: desktop1,
-    alt: 'Lua Massage',
+    alt: 'Rio-Spa',
   },
   {
     mobileSrc: mobile2,
     desktopSrc: desktop2,
-    alt: 'Lua Massage',
+    alt: 'Rio-Spa',
   },
 ]
 

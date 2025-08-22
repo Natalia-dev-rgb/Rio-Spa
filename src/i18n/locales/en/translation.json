@@ -22,15 +22,12 @@
       "Reflexology": "Reflexology",
       "Aromatherapy": "Aromatherapy"
     },
+
     "Schedule": {
       "Title": "Opening Hours",
-      "Monday": " 9:00 AM - 18:00 PM",
-      "Tuesday":"9:00 AM - 18:00 PM",
-      "Wendesday":"9:00 AM - 18:00 PM",
-      "Thursday": "9:00 AM - 18:00 PM",
-      "Friday": "9:00 AM - 18:00 PM",
-      "Saturday":"9:00 AM - 18:00 PM",
-      "Sunday":"Closed"
+      "Week":"Monday to Friday: 9:00 Am - 18:00 PM",
+      "Saturday":"Saturday: 9:00 AM - 18:00 PM",
+      "Sunday":"Sunday: Closed"
     },
     "Copyright": "© 2025 Rio-Spa. All rights reserved."
   },
@@ -82,21 +79,21 @@
       {
         "title": "Relaxing Massage",
         "description": "Enjoy smooth and fluid movements that reduce tension and stress, improve circulation, and provide a deep sense of well-being.",
-        "price": 60,
+        "price": 100,
         "time": 60,
         "image": "relaxingImg"
       },
       {
         "title": "Therapeutic Massage",
         "description": "A specific treatment for muscle and joint pain, focused on relieving chronic pain and improving mobility in affected areas.",
-        "price": 70,
+        "price": 120,
         "time": 60,
         "image": "therapeuticImg"
       },
       {
         "title": "Sports Massage",
         "description": "Ideal for athletes and active individuals, this massage helps prevent injuries, accelerate muscle recovery, and enhance physical performance.",
-        "price": 75,
+        "price": 150,
         "time": 60,
         "image": "sportsImg"
       }

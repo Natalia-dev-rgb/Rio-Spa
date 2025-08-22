@@ -22,15 +22,12 @@
             "Reflexology": "Riflessologia",
             "Aromatherapy": "Aromaterapia"
         },
+        
         "Schedule": {
             "Title": "Orari di Apertura",
-            "Monday": "9:00 AM - 18:00 PM",
-            "Tuesday": "9:00 AM - 18:00 PM",
-            "Wendesday":"9:00 AM - 18:00 PM",
-            "Thursday":"9:00 AM - 18:00 PM",
-            "Friday":"9:00 AM - 18:00 PM",
-            "Saturday":"9:00 AM - 18:00 PM",
-            "Sunday": "Closed"
+           "Week":"Da lunedi a venerdi: 9:00 AM - 18:00 PM",
+            "Saturday":"Sabato: 9:00 AM - 18:00 PM",
+            "Sunday": "chiuso"
         },
         "Copyright": "© 2025 Rio-Spa. Tutti i diritti riservati."
     },
@@ -82,21 +79,21 @@
             {
                 "title": "Massaggio Rilassante",
                 "description": "Goditi movimenti dolci e fluidi che riducono la tensione e lo stress, migliorano la circolazione e offrono una profonda sensazione di benessere.",
-                "price": 60,
+                "price": 100,
                 "time": 60,
                 "image": "relaxingImg"
             },
             {
                 "title": "Massaggio Terapeutico",
                 "description": "Trattamento specifico per dolori muscolari e articolari, mirato ad alleviare il dolore cronico e migliorare la mobilità.",
-                "price": 70,
+                "price": 120,
                 "time": 60,
                 "image": "therapeuticImg"
             },
             {
                 "title": "Massaggio Sportivo",
                 "description": "Ideale per atleti e persone attive, aiuta a prevenire infortuni, accelerare il recupero muscolare e migliorare le prestazioni.",
-                "price": 75,
+                "price": 150,
                 "time": 60,
                 "image": "sportsImg"
             }
